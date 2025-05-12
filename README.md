@@ -1,9 +1,8 @@
-# Portfólio Recrutamento
+# Codex+ Recrutamento
 
 ---
-![JPG](https://github.com/globoi/portfolio-desafio/assets/7443856/bbe4971d-ec83-467f-8fa3-9299cb1cffe6)
 
-Obrigado por participar do desafio de Portfólio! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional.
+Obrigado por participar do desafio de Codex+! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional.
 
 -------------------------------------------------------------------------------
 ## Considerações Gerais

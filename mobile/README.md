@@ -1,12 +1,11 @@
-# Portfólio Recrutamento
+# Codex+ Recrutamento
 
 ## Seu Nome
 **Desafio Mobile**
 
 ---
-![JPG](https://github.com/globoi/portfolio-desafio/assets/7443856/3414d888-70cb-49c6-a299-7a727d91740b)
 
-Obrigado por participar do desafio de Portfólio! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional.
+Obrigado por participar do desafio de Codex+! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional.
 
 -------------------------------------------------------------------------------
 ## Considerações Gerais

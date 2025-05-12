@@ -1,12 +1,11 @@
-# Portfólio Recrutamento
+# Codex+ Recrutamento
 
 ## Seu Nome
 **Desafio Web - Frontend**
 
 ---
-![JPG](https://github.com/globoi/portfolio-desafio/assets/7443856/90c0c5c8-c08e-4b89-974e-74056ad00f4b)
 
-Obrigado por participar do desafio de Portfólio! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional.
+Obrigado por participar do desafio de Codex+! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional.
 
 -------------------------------------------------------------------------------
 ## Considerações Gerais

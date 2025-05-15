@@ -1,4 +1,3 @@
-import React from "react";
 import ReactModal from "react-modal";
 
 ReactModal.setAppElement('#root');
@@ -15,11 +14,15 @@ function  VideoModal({isOpen, onClose, videoUrl}) {
             content: { margin: 'auto', width: '50%', padding: '2rem' },
             }}
         >
-            <h2>Este é um Modal</h2>
+            <h2>Vídeo</h2>
+            <video controls width="100%">
+                <source src={videoUrl} type="video/mp4" />
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
             <button onClick={onClose}>Fechar</button>
         </ReactModal>
         </>
     );
 }
 
-export default VideoModal;
+export default VideoModal;  

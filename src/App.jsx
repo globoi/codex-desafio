@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './styles/App.css'
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
@@ -7,10 +7,11 @@ import MateriaAgrupada from './MateriaAgrupada.jsx';
 
 function App() {
   const [noticias, setNoticias] = useState([]);
-  const [error, setError] = useState(null);  
+  const [error, setError] = useState(null);
+  const [page, setPage] = useState(1); // Estado para controlar a página atual
 
   useEffect(() => {
-    fetch('http://localhost:3000/feed/page/1')
+    fetch(`http://localhost:3000/feed/page/${page}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Erro ao buscar as notícias');
@@ -19,7 +20,7 @@ function App() {
       })
       .then(data => setNoticias(data))
       .catch(error => setError(error.message));
-  }, []);
+  }, [page]);
 
   return (
     <div className="App-page">

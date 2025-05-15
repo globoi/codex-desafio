@@ -1,7 +1,6 @@
 function MateriaAgrupada (proops){
     const { noticias} = proops;
     return (
-        console.log(noticias),
         <div className="materia-agrupada-container">
             {noticias.length > 0 ? (
                 <ul className="materia-list">

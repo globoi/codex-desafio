@@ -1,0 +1,36 @@
+.footer {
+  /*position: fixed;*/ 
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: bottom;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+}
+
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__links li {
+  display: inline;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer__links a:hover {
+  color: #00bcd4;
+}

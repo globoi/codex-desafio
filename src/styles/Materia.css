@@ -1,0 +1,60 @@
+.materia-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.materia-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.materia-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.materia-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.materia-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.materia-item img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.materia-item-content {
+  flex: 1;
+}
+
+.materia-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+
+.materia-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}

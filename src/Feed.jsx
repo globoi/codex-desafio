@@ -6,10 +6,20 @@ function Feed(proops) {
   if (error) {
     return <div>Erro: {error}</div>;
   }
-
   return (
-    <Materia noticias={noticias.filter(noticia => !noticia.header)} />
-  );
+    <div className="materia-container">
+        <h1>Notícias</h1>
+        {noticias.length > 0 ? (
+          <ul className="materia-list">
+            {noticias.map((noticia, index) => (
+              <Materia key={index} noticia={noticia} />
+              ))}
+            </ul>
+          ) : (
+            <p>Carregando notícias...</p>
+          )}
+    </div>
+  )
 }
 
 export default Feed;

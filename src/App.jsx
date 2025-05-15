@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './styles/App.css'
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
-import Materia from './Materia.jsx'
+import Feed from './Feed.jsx'
 import MateriaAgrupada from './MateriaAgrupada.jsx';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       <Navbar />
       <div className="content-container">
         <div className="Feed">
-          <Materia noticias={noticias.filter(noticia => noticia.type === "materia")} error={error} />
+          <Feed noticias={noticias.filter(noticia => noticia.type === "materia")} error={error} />
         </div>
         <div className="materia-agrupada">
           <MateriaAgrupada noticias={noticias.filter(noticia => noticia.type === "agrupador-materia")} />

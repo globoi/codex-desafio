@@ -7,7 +7,7 @@ import MateriaAgrupada from './MateriaAgrupada.jsx';
 
 function App() {
   const [noticias, setNoticias] = useState([]);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(null);  
 
   useEffect(() => {
     fetch('http://localhost:3000/feed/page/1')

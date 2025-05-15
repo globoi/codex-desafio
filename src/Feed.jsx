@@ -8,10 +8,9 @@ function Feed(proops) {
     return <div>Erro: {error}</div>;
   }
   return (
-    <div className="materia-container">
-        <h1>Notícias</h1>
+    <div className="feed-container">
         {noticias.length > 0 ? (
-          <ul className="materia-list">
+          <ul className="feed-list">
             {noticias.map((noticia, index) => noticia.video == null ?(
               <Materia key={index} noticia={noticia} />
               ):(<Video key={index} noticia={noticia} />))}

@@ -40,3 +40,9 @@
   gap: 2rem; /* Espaço entre as colunas */
   padding: 1rem;
 }
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Muda para coluna em telas menores */
+  }
+}

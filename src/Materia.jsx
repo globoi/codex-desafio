@@ -5,15 +5,18 @@ function Materia(proops) {
 
 
   return (
-    <a href= {noticia.url}>
-      <li key={index} className="materia-item">
+    <li key={index} className="materia-item">
+      <a href= {noticia.url} className='materia-link'>
         <img src={noticia.image} alt={noticia.title} />
-        <div className="materia-item-content">
+      </a>
+      <div className="materia-item-content">
+        <label className="materia-item-label">{noticia.section}</label>
+        <a href= {noticia.url} className='materia-link'>
           <h2>{noticia.title}</h2>
-          <p>{noticia.summary}</p>
-        </div>
-      </li>
-    </a>
+        </a>
+        <p>{noticia.summary}</p>
+      </div>
+    </li>
   );
 }
 

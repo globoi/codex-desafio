@@ -11,12 +11,13 @@ function Video(proops) {
 
   return (
     <a onClick={openModal}>
-        <li key={index} className="materia-item">
+      <li key={index} className="materia-item">
         <img src={noticia.image} alt={noticia.title} />
-            <div className="materia-item-content">
-                <h2>{noticia.title}</h2>
-                <p>{noticia.summary}</p>
-            </div>
+        <div className="materia-item-content">
+            <label>Video</label>
+            <h2>{noticia.title}</h2>
+            <p>{noticia.summary}</p>
+        </div>
       </li>
       <VideoModal isOpen={isModalOpen} onClose={closeModal} videoUrl={noticia.video.source} />
     </a>

@@ -1,3 +1,5 @@
+import './styles/MateriaAgrupada.css';
+
 function MateriaAgrupada (proops){
     const { noticias} = proops;
     return (

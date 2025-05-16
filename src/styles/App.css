@@ -1,48 +1,33 @@
 .App-page {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh;
-}
-
-.Feed {
-  display: flex;
-  flex: 2; /* Aumenta o espaço ocupado pelo Feed */
-  padding: 1rem;
-}
-
-.Feed .materia-container {
-  flex: 2; /* Aumenta o espaço ocupado pelas matérias do feed */
-}
-
-.materia-agrupada {
-  flex: 1; /* Reduz o espaço ocupado pelo MateriaAgrupada */
-  padding: 1rem;
-  background-color: #f4f4f4;
-  border-left: 1px solid #ddd;
-  overflow-y: auto;
-}
-
-.materia-agrupada .materia-agrupada-container {
-  flex: 1; /* Reduz o espaço ocupado pelas matérias agrupadas */
-  padding: 1rem;
-  background-color: #f4f4f4;
-  border-left: 1px solid #ddd;  
-  overflow-y: auto;
-}
-
-.materia-agrupada .materia-container {
-  margin: 0;
+  background-color: #f4f4f4;;
 }
 
 .content-container {
   display: flex;
-  flex: 1;
-  gap: 2rem; /* Espaço entre as colunas */
+  flex-direction: row;
   padding: 1rem;
+  max-width: 150vh;
+}
+
+.Feed {
+  display: flex;
+  flex: 2;
+  padding: 1rem;
+}
+
+.materia-agrupada {
+  flex: 1;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  overflow-y: auto;
 }
 
 @media (max-width: 768px) {
   .content-container {
-    flex-direction: column; /* Muda para coluna em telas menores */
+    flex-direction: column;
   }
 }

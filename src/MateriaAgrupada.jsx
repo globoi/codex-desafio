@@ -1,16 +1,16 @@
-import './styles/MateriaAgrupada.css';
+import "./styles/MateriaAgrupada.css";
 
 function MateriaAgrupada (proops){
     const { noticias} = proops;
     return (
-        <div className="materia-agrupada-container">
+        <div className="agrupada-container">
             {noticias.length > 0 ? (
-                <ul className="materia-list">
+                <ul className="agrupada-list">
                     {noticias.map((noticia, index) => (
-                        <li key={index} className="materia-item">
+                        <li key={index} className="agrupada-item">
                             <h2>{noticia.header}</h2>
                             <img src={noticia.image} alt={noticia.title} />
-                            <div className="materia-item-content">
+                            <div className="agrupada-item-content">
                                 {noticia.group && (
                                 <ul className="group-item-list">
                                     {noticia.group.map((group, groupIndex) => (

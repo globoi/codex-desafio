@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import './styles/App.css'
 import Navbar from './Navbar.jsx'
-import Footer from './Footer.jsx'
 import Feed from './Feed.jsx'
 import MateriaAgrupada from './MateriaAgrupada.jsx';
 
@@ -33,7 +32,6 @@ function App() {
           <MateriaAgrupada noticias={noticias.filter(noticia => noticia.type === "agrupador-materia")} />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

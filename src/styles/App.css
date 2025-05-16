@@ -15,8 +15,19 @@
 
 .Feed {
   display: flex;
+  flex-direction: column;
   flex: 2;
+  justify-content: space-between;
   padding: 1rem;
+}
+
+.load-more-button {
+  background-color: #c4170c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .materia-agrupada {

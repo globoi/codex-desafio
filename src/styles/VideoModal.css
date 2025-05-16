@@ -1,0 +1,14 @@
+.video-modal {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 60%;
+    max-height: 80%;
+}
+
+@media (max-width: 768px) {
+    .video-modal {
+        width: 100%;
+        max-height: 60%;
+    }
+}   

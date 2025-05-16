@@ -1,7 +1,7 @@
 import "./styles/MateriaAgrupada.css";
 
-function MateriaAgrupada (proops){
-    const { noticias} = proops;
+function MateriaAgrupada (props){
+    const { noticias} = props;
     return (
         <div className="agrupada-container">
             {noticias.length > 0 ? (

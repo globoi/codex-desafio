@@ -1,7 +1,7 @@
 import './styles/Materia.css';
 
-function Materia(proops) {
-  const { noticia, index } = proops;
+function Materia(props) {
+  const { noticia, index } = props;
 
 
   return (

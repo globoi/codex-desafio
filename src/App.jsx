@@ -9,9 +9,10 @@ function App() {
   const [error, setError] = useState(null);
   const [page, setPage] = useState(1);
   const [hasPage, setHasPage] = useState(true);
+  const apiUrl = `${import.meta.env.VITE_API_URL}${page}`;
 
   useEffect(() => {
-    fetch(`http://localhost:3000/feed/page/${page}`)
+    fetch(apiUrl)
       .then(response => {
         if (!response.ok) {
           throw new Error('Erro ao buscar as notícias');
@@ -22,7 +23,7 @@ function App() {
         if (data.message) {
           console.log("sem mais noticias");
           setHasPage(false);
-        }else{
+        }else {
           console.log(data);
           setNoticias(prev =>[...prev, ...data])}})
       .catch(error => setError(error.message));

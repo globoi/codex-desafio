@@ -2,8 +2,8 @@ import Materia from './Materia';
 import Video from './Video';
 import Anuncio from './Anuncio';
 
-function Feed(proops) {
-  const { noticias, error } = proops;
+function Feed(props) {
+  const { noticias, error } = props;
 
   if (error) {
     return <div>Erro: {error}</div>;

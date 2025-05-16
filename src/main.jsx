@@ -7,11 +7,9 @@ import './styles/index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
-    </Router>
-  </StrictMode>,
+    </Router>  
 )

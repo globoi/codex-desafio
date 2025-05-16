@@ -2,8 +2,8 @@ import { useState } from "react";
 import './styles/Materia.css';
 import VideoModal from './VideoModal';
 
-function Video(proops) {
-  const { noticia, index } = proops;
+function Video(props) {
+  const { noticia, index } = props;
   const [isModalOpen, setIsModalOpen] = useState(false); // Estado para controlar o modal
 
   const openModal = () => setIsModalOpen(true); // Abre o modal

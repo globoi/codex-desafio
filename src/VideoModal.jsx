@@ -3,7 +3,7 @@ import './styles/VideoModal.css';
 
 ReactModal.setAppElement('#root');
 
-function  VideoModal({isOpen, onClose, videoUrl}) {
+function  VideoModal({isOpen, onClose, videoUrl, title}) {
     return (
         <>
         <ReactModal
@@ -23,10 +23,14 @@ function  VideoModal({isOpen, onClose, videoUrl}) {
             },
             }}
         >
-            <video className="video-modal" controls width="100%">
-                <source src={videoUrl} type="video/mp4" />
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
+            <div className="video-modal-content">
+                <button className="close-button" onClick={onClose} autoFocus>X</button>
+                <h2 className="video-title">{title}</h2>
+                <video className="video-modal" controls width="100%">
+                    <source src={videoUrl} type="video/mp4" />
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
         </ReactModal>
         </>
     );

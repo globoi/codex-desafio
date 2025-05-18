@@ -4,11 +4,10 @@ import VideoModal from './VideoModal';
 
 function Video(props) {
   const { noticia, index } = props;
-  const [isModalOpen, setIsModalOpen] = useState(false); // Estado para controlar o modal
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openModal = () => setIsModalOpen(true); // Abre o modal
-  const closeModal = () => {console.log('Fechando modal...'); setIsModalOpen(false);}; // Fecha o modal
-
+  const openModal = () => setIsModalOpen(true); 
+  const closeModal = () => setIsModalOpen(false); 
   return (
     <>
       <div onClick={openModal}>

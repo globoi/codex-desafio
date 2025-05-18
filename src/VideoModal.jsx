@@ -36,8 +36,8 @@ function  VideoModal({isOpen, onClose, videoUrl, title}) {
                 <button className="close-button" onClick={onClose}>X</button>
                 <div className="video-modal-container">
                     <h2 className="video-title">{title}</h2>
-                    <video className="video-modal">
-                        <source src={videoUrl} type="video/mp4" />
+                    <video className="video-modal" controls>
+                        <source src={videoUrl} type="video/mp4"/>
                         Seu navegador não suporta o elemento de vídeo.
                     </video>
                 </div>
@@ -47,4 +47,4 @@ function  VideoModal({isOpen, onClose, videoUrl, title}) {
     );
 }
 
-export default VideoModal;  
+export default VideoModal;

@@ -5,7 +5,7 @@ function Anuncio(proops) {
   return (
      <li key={index} className="materia-item">
       <a href= "" className='materia-link'>
-        <img src="https://picsum.photos/200/300" alt="Anúncio" />
+        <img src="https://picsum.photos/600/400" alt="Anúncio" />
       </a>
       <div className="materia-item-content">
         <label className="materia-item-label">Anunciante</label>

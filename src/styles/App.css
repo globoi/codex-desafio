@@ -9,7 +9,7 @@
 .content-container {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: 2rem;
   max-width: 150vh;
 }
 
@@ -40,5 +40,20 @@
 @media (max-width: 768px) {
   .content-container {
     flex-direction: column;
+    padding:0;
+  }
+  .Feed {
+    padding: 0;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 920px) {
+  .content-container {
+    flex-direction: column;
+    padding:0;
+  }
+
+  .Feed {
+    padding: 0;
   }
 }

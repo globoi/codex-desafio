@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
     .video-modal {
         width: 90%;
         max-height: 80%;

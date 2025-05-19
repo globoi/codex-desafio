@@ -29,7 +29,6 @@
   flex-direction: column;
   flex: 2;
   justify-content: space-between;
-  padding: 1rem;
 }
 
 .load-more-button {
@@ -43,12 +42,12 @@
 
 .materia-agrupada {
   flex: 1;
-  padding: 1rem;
+  padding-left: 1rem;
   background-color: #f4f4f4;
   overflow-y: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .content-container {
     flex-direction: column;
     padding:0;
@@ -60,9 +59,13 @@
   .Feed {
     padding: 0;
   }
+
+  .materia-agrupada{
+    padding:1rem;
+  }
 }
 
-@media (orientation: landscape) and (max-width: 920px) {
+@media (orientation: landscape) and (max-width: 1000px) {
   .content-container {
     flex-direction: column;
     padding:0;

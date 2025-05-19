@@ -19,5 +19,5 @@ Função fechar corrigida ao mover o componente VideoModal.jsx para fora da zona
 Ajustada a exibição da página no modo landscape, ajuste para o conteúdo do VideoModal apareça no centro da tela e ajuste do tamanho das imagens no modo Smartphone.
 Criar uma área para a notícia em destaque(irei separa a primeira notícia do tipo "materia" que não possui um video para exibir como destaque) e criar um componente para exibir a notícia.
 Algo fez com que o video não funcionasse corretamente e exibisse somente uma tela preta(Corrigido ao adicionar o atributo controls  ao <video>).
-
+Passar o link da matéria na noticia em destaque e fazer correções e alteraçoes no estilo da página.
 

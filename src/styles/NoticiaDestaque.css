@@ -6,6 +6,11 @@
   height: 450px;
 }
 
+.destaque-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .destaque-card-text {
     background-color: white;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -40,9 +45,13 @@
   cursor: pointer;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1200px) {
   .destaque-card {
+    margin-top: 2rem;
     flex-direction: column;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    height: auto;
   }
   .destaque-card-text {
     width: 100%;
@@ -50,7 +59,6 @@
 
   .destaque-card img {
     width: 100%;
-    max-height: 240px;
     border-radius: 4px;
   }
 

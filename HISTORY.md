@@ -1,4 +1,5 @@
 Criar o esqueleto da página(maior parte do visual inicial feito utilizando IA e futaramente farei ajustes para seguir o layout do arquivo de referência) e em seguida realizar conexão com a API.
+Instalado o pacote 'react-router-dom' para definir as rotas.
 Criar um componente Feed.jsx para exibir as informações da primeira página da API
 Criar um componente Materia.jsx e o CSS Materia.css para exbir as noticias do tipo matéria(a princípio está exibindo todos os tipos materia, video e materia agrupada) e deixar o Feed.jsx pra distribuir as noticias entre video e matéria.
 Criar um componente Video.jsx para exibir as noticías de video.(estou utilizando o css de Materia.css pois o formato de exibir é semelhante -Talvez separe no futuro-)
@@ -20,4 +21,5 @@ Ajustada a exibição da página no modo landscape, ajuste para o conteúdo do V
 Criar uma área para a notícia em destaque(irei separa a primeira notícia do tipo "materia" que não possui um video para exibir como destaque) e criar um componente para exibir a notícia.
 Algo fez com que o video não funcionasse corretamente e exibisse somente uma tela preta(Corrigido ao adicionar o atributo controls  ao <video>).
 Passar o link da matéria na noticia em destaque e fazer correções e alteraçoes no estilo da página.
+Instalar os pacotes para a realização dos testes unitários(npm install -D vitest @testing-library/react @testing-library/jest-dom jsdom)
 

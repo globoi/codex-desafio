@@ -22,4 +22,5 @@ Criar uma área para a notícia em destaque(irei separa a primeira notícia do t
 Algo fez com que o video não funcionasse corretamente e exibisse somente uma tela preta(Corrigido ao adicionar o atributo controls  ao <video>).
 Passar o link da matéria na noticia em destaque e fazer correções e alteraçoes no estilo da página.
 Instalar os pacotes para a realização dos testes unitários(npm install -D vitest @testing-library/react @testing-library/jest-dom jsdom)
+Criação dos testes unitários para os componentes.
 

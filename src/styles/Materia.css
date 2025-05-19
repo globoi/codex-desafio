@@ -5,6 +5,7 @@
 .materia-item {
   display: flex;
   align-items: flex-start;
+  min-height: 200px;
   gap: 1.5rem;
   background-color: #f4f4f4;;
   border-bottom: 2px solid #ddd;  

@@ -6,9 +6,11 @@ function Materia(props) {
 
   return (
     <li key={index} className="materia-item">
-      <a href= {noticia.url} className='materia-link'>
-        <img src={noticia.image} alt={noticia.title} />
-      </a>
+      {noticia.image && (
+        <a href= {noticia.url} className='materia-link'>
+          <img src={noticia.image} alt={noticia.title} />
+        </a>
+      )}
       <div className="materia-item-content">
         <label className="materia-item-label">{noticia.section}</label>
         <a href= {noticia.url} className='materia-link'>

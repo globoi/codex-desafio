@@ -6,7 +6,7 @@ function Feed(props) {
   const { noticias, error } = props;
 
   if (error) {
-    return <div>Erro: {error}</div>;
+    return <div role="alert">Erro: {error}</div>;
   }
   return (
     <div className="feed-container">

@@ -10,12 +10,12 @@ function Video(props) {
   const closeModal = () => setIsModalOpen(false); 
   return (
     <>
-      <div onClick={openModal}>
+      <div onClick={openModal} data-testid="video-list-item">
         <li key={index} className="materia-item">
-          <img src={noticia.image} alt={noticia.title} />
+          <img src={noticia.image} alt={noticia.title} data-testid="video-thumbnail"/>
           <div className="materia-item-content">
               <label>Video</label>
-              <h2>{noticia.title}</h2>
+              <h2 data-testid="video-title">{noticia.title}</h2>
               <p>{noticia.summary}</p>
           </div>
         </li>

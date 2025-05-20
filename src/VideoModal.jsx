@@ -32,7 +32,7 @@ function  VideoModal({isOpen, onClose, videoUrl, title}) {
             },
             }}
         >
-            <div className="video-modal-content">
+            <div className="video-modal-content" data-testid="video-modal">
                 <button className="close-button" aria-label="Fechar modal" onClick={onClose}>X</button>
                 <div className="video-modal-container">
                     <h2 className="video-title">{title}</h2>

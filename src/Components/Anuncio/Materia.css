@@ -1,0 +1,80 @@
+.materia-link {
+  text-decoration: none;
+  color: inherit;
+}
+.materia-item {
+  display: flex;
+  align-items: flex-start;
+  min-height: 200px;
+  gap: 1.5rem;
+  background-color: #f4f4f4;;
+  border-bottom: 2px solid #ddd;  
+  margin-bottom: 1.5rem;
+}
+
+.materia-item img {
+  width: 400px;
+  height: 225px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.materia-item-content {
+  flex: 1;
+  width: 100%;
+}
+
+.materia-item-content h2 {
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 0.5rem;
+  color: #c4170c;
+  cursor: pointer;
+}
+
+.materia-item-content h2:hover {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #a6130a;
+}
+
+.materia-item-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 1000px) {
+  .materia-item {
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding:0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .materia-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+  .materia-item-content {
+    padding:1rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 920px) {
+  .materia-item {
+    border: 1px solid #ddd;
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+  }
+  .materia-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+}

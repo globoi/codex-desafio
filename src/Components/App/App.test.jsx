@@ -3,11 +3,11 @@ import { render, screen, waitFor } from '@testing-library/react';
 import App from './App';
 
 // Mocks dos componentes internos
-vi.mock('./Navbar', () => ({
+vi.mock('../Navbar/Navbar', () => ({
   default: () => <nav data-testid="navbar">Navbar</nav>
 }));
 
-vi.mock('./NoticiaDestaque', () => ({
+vi.mock('../NoticiaDestaque/NoticiaDestaque', () => ({
   default: ({ noticia }) => (
     <div data-testid="noticia-destaque">
       {noticia ? noticia.title : 'Sem destaque'}
@@ -15,7 +15,7 @@ vi.mock('./NoticiaDestaque', () => ({
   )
 }));
 
-vi.mock('./Feed', () => ({
+vi.mock('../Feed/Feed', () => ({
   default: ({ noticias, error }) =>
     error
       ? <div role="alert">Erro: {error}</div>
@@ -26,7 +26,7 @@ vi.mock('./Feed', () => ({
       )
 }));
 
-vi.mock('./MateriaAgrupada', () => ({
+vi.mock('../MateriaAgrupada/MateriaAgrupada', () => ({
   default: ({ noticias }) => (
     <div data-testid="agrupadas">{noticias.length} agrupadas</div>
   )

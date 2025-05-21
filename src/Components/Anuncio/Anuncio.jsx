@@ -1,4 +1,4 @@
-import './styles/Materia.css';
+import './Materia.css';
 
 function Anuncio(proops) {
   const { index } = proops;

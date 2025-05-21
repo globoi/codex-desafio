@@ -1,4 +1,4 @@
-import './styles/NoticiaDestaque.css';
+import './NoticiaDestaque.css';
 
 function NoticiaDestaque ({noticia}) {
     if (!noticia) return null;

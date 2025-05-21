@@ -1,6 +1,6 @@
 import { useState } from "react";
-import './styles/Materia.css';
-import VideoModal from './VideoModal';
+import './Materia.css';
+import VideoModal from '../VideoModal/VideoModal';
 
 function Video(props) {
   const { noticia, index } = props;

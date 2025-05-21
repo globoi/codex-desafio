@@ -2,15 +2,15 @@ import { render, screen } from '@testing-library/react';
 import Feed from './Feed';
 
 // Mocks dos componentes usados no Feed
-vi.mock('./Materia', () => ({
+vi.mock('../Materia/Materia', () => ({
   default: (props) => <li data-testid="materia">{props.noticia.title}</li>
 }));
 
-vi.mock('./Video', () => ({
+vi.mock('../Video/Video', () => ({
   default: (props) => <li data-testid="video">{props.noticia.title}</li>
 }));
 
-vi.mock('./Anuncio', () => ({
+vi.mock('../Anuncio/Anuncio', () => ({
   default: () => <li data-testid="anuncio">Anúncio</li>
 }));
 

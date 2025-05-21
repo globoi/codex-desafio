@@ -1,5 +1,5 @@
 import ReactModal from "react-modal";
-import './styles/VideoModal.css';
+import './VideoModal.css';
 
 ReactModal.setAppElement('#root');
 

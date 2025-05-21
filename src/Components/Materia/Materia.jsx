@@ -1,4 +1,4 @@
-import './styles/Materia.css';
+import './Materia.css';
 
 function Materia(props) {
   const { noticia, index } = props;

@@ -23,4 +23,4 @@ Algo fez com que o video não funcionasse corretamente e exibisse somente uma te
 Passar o link da matéria na noticia em destaque e fazer correções e alteraçoes no estilo da página.
 Instalar os pacotes para a realização dos testes unitários(npm install -D vitest @testing-library/react @testing-library/jest-dom jsdom)
 Criação dos testes unitários para os componentes.
-
+Separar os componentes em pastas.

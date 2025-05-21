@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import './styles/App.css'
-import Navbar from './Navbar.jsx'
-import NoticiaDestaque from './NoticiaDestaque.jsx';
-import Feed from './Feed.jsx'
-import MateriaAgrupada from './MateriaAgrupada.jsx';
+import './App.css'
+import Navbar from '../Navbar/Navbar.jsx'
+import NoticiaDestaque from '../NoticiaDestaque/NoticiaDestaque.jsx';
+import Feed from '../Feed/Feed.jsx'
+import MateriaAgrupada from '../MateriaAgrupada/MateriaAgrupada.jsx';
 
 function App() {
   const [noticias, setNoticias] = useState([]);

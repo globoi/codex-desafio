@@ -1,5 +1,5 @@
-import './styles/Navbar.css';
-import Logo from './assets/G1_logo.svg';
+import './Navbar.css';
+import Logo from '../../assets/G1_logo.svg';
 
 function Navbar() {
   return (

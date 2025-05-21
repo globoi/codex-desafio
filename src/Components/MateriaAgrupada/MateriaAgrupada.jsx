@@ -1,4 +1,4 @@
-import "./styles/MateriaAgrupada.css";
+import "./MateriaAgrupada.css";
 
 function MateriaAgrupada (props){
     const { noticias} = props;

@@ -1,6 +1,6 @@
-import Materia from './Materia';
-import Video from './Video';
-import Anuncio from './Anuncio';
+import Materia from '../Materia/Materia';
+import Video from '../Video/Video';
+import Anuncio from '../Anuncio/Anuncio';
 
 function Feed(props) {
   const { noticias, error } = props;

@@ -1,0 +1,27 @@
+.agrupada-container ul {
+    list-style: none;
+}
+
+.agrupada-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.agrupada-item a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.1rem;
+  color: #c4170c;
+  font-weight: bold;
+}
+
+.agrupada-item a:hover {
+  color: #a6130a;
+}
